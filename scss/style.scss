@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,700');
+html {
+  height: 100%;
+}
+body {
+  background: #f857a6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #ff5858, #f857a6);  /*   Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #ff5858, #f857a6); /* W3C, IE     10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 0 1rem;
+  font-family: 'Titillium Web', sans-serif;
+  text-align: center;
+  color: #FFF;
+}
+h1 {
+  margin-bottom: 3rem;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+}
+a {
+  color: #FFF;
+}
+main {
+  max-width: 75rem;
+  margin: 0 auto;
+}
+
+img {
+  transition: transform 0.2s ease-in-out;
+  &:not(:last-child) {
+    margin-right: 2rem;
+  }
+  &:hover {
+    transform: rotate(20deg);
+    cursor: pointer;
+  }
+}
+
+p {
+  margin-top: 3rem;
+}
